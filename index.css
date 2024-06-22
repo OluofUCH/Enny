@@ -1,0 +1,786 @@
+body{
+    background-image: linear-gradient(to top right,#222120,#ff0844);
+    background-position: right;
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+#us{display: none;}
+#x{
+    display: none;
+}
+#pitch{
+    display: none;
+}
+header{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    margin: 20px;
+    margin: 0px;
+    background-color: black;
+    padding-top: 20px;
+    position: fixed;
+    top: 0;
+}
+#head1{
+    height: 80%;
+    width: 20%;
+    color: white;
+}
+#head2{
+    height: 80%;
+    width: 60%;
+    color: white;
+    display: flex;
+    gap: 20px;
+    padding-left: 100px;
+    margin-top: 10px;
+}
+#head3{
+    height: 80%;
+    width: 20%;
+    display: flex;
+    gap: 10px;
+}
+#circ{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background-color: rgb(0, 0, 0);
+    border: 1px white solid;
+    
+}
+b{
+    font-size: x-large;
+    font-weight: bold;
+    font-family: Verdana;
+    color: white;
+}
+a{
+    font-size: large;
+    font-weight: lighter;
+    font-family: arial narrow bold;
+    color: white;
+    text-decoration:none;
+}
+#b{
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: Verdana;
+    color: blueviolet; 
+}
+p{
+    color: white;
+    margin-top: 140px;
+    margin-left: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#p{
+    color: white;
+    margin-top: 0px;
+    margin-left: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#name{
+    font-size: 60px;
+    margin-left: 80px;
+}
+#bt{
+    display: flex;
+    margin-left: 80px;
+    gap: 10px;
+    margin-top: 20px;
+}
+#btn1{
+    width: 150px;
+    height: 40px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+    border: none;
+}
+#btn2{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+}
+#btn1:hover{
+    background-color: white;
+    color: blueviolet;
+}
+#btn2:hover{
+    color: white;
+    background-color: blueviolet;
+}
+a:hover{
+    color: blueviolet;
+}
+#im{
+    height: 20px;
+    width: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+#image{
+    margin-top: -350px;
+    margin-left: 900px;
+    /* border: 2px solid blueviolet; */
+    border-radius: 20px 20px 20px 20px;
+    height: 70%;
+    width: 300px;
+}
+#rim{
+    border-radius: 20px 20px 20px 20px;
+}
+#about{
+    background-color: white;
+    height: 80%;
+    width: 100%;
+}
+#abt{
+    font-size: large;
+    font-weight: bold;
+    color: #222120;
+    margin-left: 600px;
+}
+#tx{
+    font-size: 50px;
+    font-weight: bolder;
+    color: #222120;
+    margin-top: 280px;
+    margin-left: 600px; 
+}
+#txt{
+    font-size: large;
+    font-weight: bold;
+    color: #222120;
+    margin-top: 0px;
+    margin-left: 600px;
+}
+#txt2{
+    font-size: 50px;
+    font-weight: bolder;
+    color: #222120;
+    margin-top: 300px;
+    margin-left: 600px; 
+}
+#hold{
+    /* border: 2px solid blueviolet; */
+    border-radius: 100px 100px 100px 100px;
+    height: 80%;
+    width: 250px;
+    background-color: red;
+    background-image: url(images/images\ \(2\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -300px;
+    margin-left: 110px;
+}
+#hold2{
+    /* border: 2px solid blueviolet; */
+    border-radius: 100px 100px 100px 100px;
+    height: 60%;
+    width: 150px;
+    background-color: red;
+    background-image: url(images/images\ \(1\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -300px;
+    margin-left: 400px;
+}
+#services{
+    background-color: rgb(255, 255, 255);
+    height: 75%;
+    width: 100%;
+    gap: 10px;
+    padding-left: 20px;
+}
+#ser{
+    height: 80%;
+    width: 30%;
+    background-color: rgb(230, 224, 235);
+    border-radius: 30px 30px 30px 30px;
+}
+#serv{
+    font-size: xx-large;
+    margin-left: 500px;
+    font-weight: bolder;
+    color: black;
+}
+#service{
+    background-color: rgb(255, 255, 255);
+    height: 90%;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+#gim{
+    margin-top: 50px;
+    margin-left: 140px;
+}
+#pin{
+    font-size: xx-large;
+    font-weight: bold;
+    color: black;
+    margin-top: 10px;
+    margin-left: 90px;
+}
+#pil{
+    color: black;
+    margin-top: -40px;
+    margin-left: 20px;
+}
+#portfolio{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+#portf{
+    height: 80%;
+    width: 100%;
+    background-color: white;
+}
+#prt{
+    font-size: xx-large;
+    font-weight: bold;
+    color: black;
+    margin-left: 550px;
+}
+#gallery{
+    height: 50%;
+    width: 100%;
+    /* background-color: green ; */
+    display:flex;
+    gap: 5px;
+    padding-left: 60px;
+}
+#gall{
+    height: 100%;
+    width: 30%;
+    background-color: #222120;
+    background-image: url(images/IMG_0123.jpg);
+    background-size: cover;
+}
+#gall2{
+    height: 100%;
+    width: 30%;
+    background-color: #222120;
+    background-image: url(images/IMG_8635.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#gall3{
+    height: 100%;
+    width: 30%;
+    background-color: #222120;
+    background-image: url(images/IMG_0144.jpg);
+    background-size: cover;
+}
+#gall4{
+    height: 100%;
+    width: 30%;
+    background-color: #222120;
+    background-image: url(images/P1300539.jpg);
+    background-size: cover;
+}
+#gall5{
+    height: 100%;
+    width: 30%;
+    background-color: #222120;
+    background-image: url(images/P1430056-29.jpg);
+    background-size: cover;
+}
+
+#gall6{
+    height: 100%;
+    width: 30%;
+    background-color: #222120;
+    background-image: url(images/P1460156.jpg);
+    background-size: cover;
+}
+#reviews{
+    height: 45%;
+    width: 100%;
+    background-color: white;
+
+}
+#rev{
+    margin-left: 550px;
+}
+#red{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    padding-left: 50px;
+    gap: 10px;
+}
+#rew{
+    height: 100%;
+    width: 30%;
+    border-top: 0;
+        border-right: 0;
+        border-radius: 0;
+        background-color: rgb(230, 224, 235);
+    /* background-color: black; */
+}
+#cirt{
+    height: 130px;
+    width: 130px;
+    background-color: black;
+    border-radius: 100%;
+    margin-top: 20px;
+    background-image: url(images/40215.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#pric{
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+    margin-left: 140px;
+}
+#olu{
+    color: rgb(0, 0, 0);
+    margin-left: 140px;
+    margin-bottom: 0px;
+    margin-top: -110px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+#pric2{
+    color: blueviolet;
+    margin-top: -170px;
+    margin-left: 140px;
+}
+#contact{
+    height: 40%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    margin-top: 0px;
+    display: flex;
+    padding-left: 50px;
+}
+#cont{
+height: 100%;
+width: 30%;
+margin-left: 0px;
+}
+#co{
+    margin: 0;
+}
+@media screen and (max-width:1200px) {
+    body{
+        background-image: linear-gradient(to top right,#222120,#ff0844);
+        background-position: right;
+        background-color: rgb(255, 255, 255);
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 900px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    #head2{
+        height: 580%;
+        width: 60%;
+        color: rgb(0, 0, 0);
+        display: none;
+        flex-direction: column;
+        gap: 20px;
+        padding-left: 0px;
+        margin-top: 40px;
+        background-color: aliceblue;
+        margin-left: 0px;
+        /* display: ; */
+    }
+    a{
+        font-size: large;
+        font-weight: lighter;
+        font-family: arial narrow bold;
+        color: rgb(0, 0, 0);
+        text-decoration:none;
+        border-bottom: 1px solid black;
+    }
+    #head3{
+        height: 80%;
+        width: 20%;
+        display: none;
+        gap: 10px;
+    }
+    header{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        margin: 0px;
+        background-color: rgb(0, 0, 0);
+        padding-top: 20px;
+        position: fixed;
+    }
+    p{
+        color: white;
+        margin-top: 140px;
+        margin-left: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #p{
+        color: white;
+        margin-top: 0px;
+        margin-left: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-shadow: 1px 1px black;
+    }
+    #name{
+        font-size: 25px;
+        margin-left: 20px;
+        text-shadow: 2px 2px black;
+    }
+    #bt{
+        display: flex;
+        margin-left: 20px;
+        gap: 10px;
+        margin-top: 20px;
+    }
+    #btn1{
+        width: 150px;
+        height: 40px;
+        background-color: blueviolet;
+        color: white;
+        border-radius: 20px 20px 20px 20px;
+        border: none;
+    }
+    #btn2{
+        width: 150px;
+        height: 40px;
+        background-color: black;
+        border: 2px solid white;
+        color: white;
+        border-radius: 20px 20px 20px 20px;
+    }
+    #btn1:hover{
+        background-color: white;
+        color: blueviolet;
+    }
+    #btn2:hover{
+        color: white;
+        background-color: blueviolet;
+    }
+    #image{
+        margin-top: -350px;
+        margin-left: 150px;
+        /* border: 2px solid blueviolet; */
+        border-radius: 20px 20px 20px 20px;
+        height: 368.4px;
+        width: 245.8px;
+        position: relative;
+        z-index: -1000;
+        border-radius: 20px 20px 20px 20px;
+        background-image: url(images/IMG_5051-Enhanced-NR.jpg);
+        background-repeat: no-repeat;
+        background-size: contain ;
+    }
+    #rim{
+        border-radius: 20px 20px 20px 20px;
+        height: 100%;
+        display: none;
+        /* width: ; */
+    }
+    #about{
+        background-color: white;
+        height: 60%;
+        width: 100%;
+    }
+    #abt{
+        font-size: large;
+        font-weight: bold;
+        color: #ffffff;
+        margin-left: 20px;
+        text-shadow: 1px 1px rgb(0, 0, 0);
+    }
+    #tx{
+        font-size: 50px;
+        font-weight: bolder;
+        color: #000000;
+        margin-top: 280px;
+        margin-left: 0px; 
+        text-shadow: 1px 1px white;
+    }
+    #txt{
+        font-size: large;
+        font-weight: bold;
+        color: #000000;
+        margin-top: 0px;
+        margin-left: 0px;
+        display: none;
+        text-shadow: 1px 1px white;
+    }
+    #txt2{
+        font-size: 50px;
+        font-weight: bolder;
+        color: #000000;
+        margin-top: 300px;
+        margin-left: 0px; 
+        text-shadow: 1px 1px white;
+    }
+    #hold{
+        /* border: 2px solid blueviolet; */
+        border-radius: 100px 100px 100px 100px;
+        height: 50%;
+        width: 125px;
+        background-color: red;
+        background-image: url(images/images\ \(2\).jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: -400px;
+        margin-left: 20px;
+    }
+    #hold2{
+        /* border: 2px solid blueviolet; */
+        border-radius: 100px 100px 100px 100px;
+        height: 35%;
+        width: 75px;
+        background-color: red;
+        background-image: url(images/images\ \(1\).jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: -270px;
+        margin-left: 150px;
+    }  
+    #services{
+        background-color: rgb(255, 255, 255);
+        height: 110%;
+        width: 100%;
+        gap: 10px;
+        padding-left: 0px;
+        margin-top: -90px;
+    }
+    #ser{
+        height: 80%;
+        width: 80%;
+        background-color: rgb(230, 224, 235);
+        border-radius: 30px 30px 30px 30px;
+        margin-left: 40px;
+    }
+    #serv{
+        font-size: xx-large;
+        margin-left: 80px;
+        font-weight: bolder;
+        color: black;
+    }
+    #service{
+        background-color: rgb(255, 255, 255);
+        height: 90%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+        padding-left: 0px;
+    }
+    #gim{
+        margin-top: 50px;
+        margin-left: 100px;
+    }
+    #pin{
+        font-size: xx-large;
+        font-weight: bold;
+        color: black;
+        margin-top: 10px;
+        margin-left: 65px;
+    }
+    #pil{
+        color: black;
+        margin-top: -40px;
+        margin-left: 0px;
+    }
+    #portfolio{
+        height: 200%;
+        width: 100%;
+        background-color: white;
+        margin-top: 60px;
+    }
+    #portf{
+        height: 100%;
+        width: 100%;
+        background-color: white;
+    }
+    #prt{
+        font-size: xx-large;
+        font-weight: bold;
+        color: black;
+        margin-left: 100px;
+    }
+    #gallery{
+        height: 40%;
+        width: 100%;
+        /* background-color: green ; */
+        display:flex;
+        flex-direction: column;
+        gap: 5px;
+        padding-left: 0px;
+    }
+    #gall{
+        height: 100%;
+        width: 80%;
+        background-color: #222120;
+        background-image: url(images/IMG_0123.jpg);
+        background-size: cover;
+        margin-left: 40px;
+        background-repeat: no-repeat;
+    }
+    #gall2{
+        height: 100%;
+        width: 80%;
+        background-color: #222120;
+        background-image: url(images/IMG_8635.jpg); 
+        background-size: 100%;
+        background-position: center;
+        margin-left: 40px;
+    }
+    #gall3{
+        height: 100%;
+        width: 80%;
+        background-color: #222120;
+        background-image: url(images/IMG_0144.jpg);
+        background-size: cover;
+        margin-left: 40px;
+    }
+    #gall4{
+        height: 100%;
+        width: 80%;
+        background-color: #222120;
+        background-image: url(images/P1300539.jpg);
+        background-size: cover;
+        margin-left: 40px;
+    }
+    #gall5{
+        height: 100%;
+        width: 80%;
+        background-color: #222120;
+        background-image: url(images/P1430056-29.jpg);
+        background-size: cover;
+        margin-left: 40px;
+    }
+    
+    #gall6{
+        height: 100%;
+        width: 80%;
+        background-color: #222120;
+        background-image: url(images/P1460156.jpg);
+        background-size: cover;
+        margin-left: 40px;
+    }
+    #reviews{
+        height: 60%;
+        width: 100%;    
+        background-color: white;
+        margin-top: -290px;
+    
+    }
+    #rev{
+        margin-left: 0px;
+    }
+    #red{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+        gap: 10px;
+        /* overflow-x: scroll; */
+    }
+    #rew{
+        height: 120%;
+        width: 90%;
+        border-top: 0;
+        border-right: 0;
+        border-radius: 20px 20px 20px 20px;
+        background-color: rgb(230, 224, 235);
+        margin-left: 40px;
+        /* background-color: black; */
+    }
+    #cirt{
+        height: 90px;
+        width: 90px;
+        background-color: black;
+        border-radius: 100%;
+        margin-top: 20px;
+        background-image: url(images/40215.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 10px;
+    
+    }
+    #pric{
+        color: rgb(0, 0, 0);
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+    #olu{
+        color: rgb(0, 0, 0);
+        margin-left: 120px;
+        margin-top: -90px;
+        /* position: absolute; */
+    }
+    #pric2{
+        color: blueviolet;
+        margin-top: -135px;
+        margin-left: 150px;
+    }
+
+    #contact{
+        height: 40%;
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        margin-top: 200px;
+        display: flex;
+        flex-direction: row;
+        padding-left:   0px;
+        gap: 10px;
+    }
+    #cont{
+    height: 100%;
+    width: 20%;
+    margin-left: -190px;
+    margin-top: -100px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    /* background-color: #000; */
+    }
+    #co{
+        margin: 0;
+        color: #000;
+    }
+    #x{
+        font-size: xx-large;
+        font-weight: bolder;
+        color: white;
+        margin-left: 120px;
+        display: none;
+    }    
+    #pitch{
+        display: inline;
+        margin-left: 280px;
+    }
+    #us{
+        color: #000;
+        margin-left: 39px;
+        margin-top: -130px;
+        display: inline;
+    }
+    #erw{
+        display: none;
+    }
+}
